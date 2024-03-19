@@ -1,0 +1,313 @@
+output.txt
+
+PS D:\Library_Management_System> python main.py
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 1
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 1
+Enter book title: Matlida
+Enter author's name: Kavya
+Enter book ISBN: 978-0-7334-2609-4
+Book added successfully.
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 1
+Enter book title: Harry Potter
+Enter author's name: J.K.Rowling
+Enter book ISBN: 978-1-4088-5565-2
+Book added successfully.
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 2
+Matlida by Kavya, ISBN: 978-0-7334-2609-4
+Harry Potter by J.K.Rowling, ISBN: 978-1-4088-5565-2
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 3
+Enter book ISBN to update: 978-0-7334-2609-4
+New title (press enter to skip):
+New author (press enter to skip): Roald Dalhi
+Book updated successfully.
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 2
+Matlida by Roald Dalhi, ISBN: 978-0-7334-2609-4
+Harry Potter by J.K.Rowling, ISBN: 978-1-4088-5565-2
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 4
+Enter book ISBN to delete: 978-0-7334-2609-4
+Book deleted successfully.
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 2
+Harry Potter by J.K.Rowling, ISBN: 978-1-4088-5565-2
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 5
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 2
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 1
+Enter user name: Kavyasri
+Enter user ID: 1126
+User added successfully.
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 1
+Enter user name: Rama
+Enter user ID: 1108
+User added successfully.
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 2
+ID: 1126, Name: Kavyasri
+ID: 1108, Name: Rama
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 3
+Enter user ID to update: 1108
+New name (press enter to skip): Krishna
+User updated successfully.
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 2
+ID: 1126, Name: Kavyasri
+ID: 1108, Name: Krishna
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 4
+Enter user ID to delete: 1108
+User deleted successfully.
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 2
+ID: 1126, Name: Kavyasri
+
+--- User Management ---
+1. Add User
+2. List Users
+3. Update User
+4. Delete User
+5. Return to Main Menu
+Select an option: 5
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 3
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 1
+Enter book ISBN to checkout: 978-0-7334-2609-4
+Enter user ID: 1126
+Book checked out successfully.
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 3
+ISBN: 256, User ID: 256, Due Date: 2024-04-02T09:50:09.858264
+ISBN: 978-0-7334-2609-4, User ID: 1126, Due Date: 2024-04-02T09:56:23.628317
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 2
+Enter book ISBN to checkin: 978-0-7334-2609-4
+Book checked in successfully.
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 3
+ISBN: 256, User ID: 256, Due Date: 2024-04-02T09:50:09.858264
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 2
+Enter book ISBN to checkin: 978-0-7334-2609-4
+Failed to checkin book. It may not have been checked out or does not exist.
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 3
+ISBN: 256, User ID: 256, Due Date: 2024-04-02T09:50:09.858264
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 4
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 4
+
+--- Overdue Books ---
+No books are currently overdue.
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 3
+
+--- Checkout Management ---
+1. Checkout Book
+2. Checkin Book
+3. List Checked Out Books
+4. Return to Main Menu
+Select an option: 4
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 4
+
+--- Overdue Books ---
+No books are currently overdue.
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 1
+
+--- Book Management ---
+1. Add Book
+2. List Books
+3. Update Book
+4. Delete Book
+5. Return to Main Menu
+Select an option: 5
+
+--- Library Management System ---
+1. Manage Books
+2. Manage Users
+3. Checkout or Checkin Books
+4. List Overdue Books
+5. Exit
+Please choose an option: 5
+Exiting the Library Management System. Goodbye!
+PS D:\Library_Management_System>

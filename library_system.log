@@ -1,0 +1,49 @@
+2024-03-19 09:45:23,775 - INFO - Books have been saved to storage.
+2024-03-19 09:45:23,775 - INFO - Book added: 456-895-65-63
+2024-03-19 09:46:17,098 - WARNING - Book not found for update: 56
+2024-03-19 09:46:29,393 - WARNING - Book not found for deletion: 5
+2024-03-19 09:46:44,689 - INFO - Books have been saved to storage.
+2024-03-19 09:46:44,689 - INFO - Book deleted: 456-895-65-63
+2024-03-19 09:46:57,273 - WARNING - Book not found for update: 56
+2024-03-19 09:47:14,582 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:47:14,582 - INFO - User added: kavya, ID: 123
+2024-03-19 09:47:29,979 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:47:29,979 - INFO - User added: opi, ID: 456
+2024-03-19 09:47:43,651 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:47:43,651 - INFO - User updated: ID: 456
+2024-03-19 09:48:06,092 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:48:06,092 - INFO - User updated: ID: 456
+2024-03-19 09:48:14,006 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:48:14,006 - INFO - User deleted: ID: 456
+2024-03-19 09:48:36,969 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:48:36,969 - INFO - Book checked out: ISBN 456 by User ID lopi
+2024-03-19 09:49:18,799 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:49:18,799 - INFO - Book checked in: ISBN 456
+2024-03-19 09:49:26,064 - WARNING - Attempt to check in a book not checked out: ISBN 456
+2024-03-19 09:50:01,252 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:50:01,252 - INFO - Book checked out: ISBN 123 by User ID 123
+2024-03-19 09:50:09,858 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:50:09,858 - INFO - Book checked out: ISBN 256 by User ID 256
+2024-03-19 09:50:20,156 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:50:20,156 - INFO - Book checked in: ISBN 123
+2024-03-19 09:52:40,788 - INFO - Books have been saved to storage.
+2024-03-19 09:52:40,788 - INFO - Book added: 978-0-7334-2609-4
+2024-03-19 09:53:59,137 - INFO - Books have been saved to storage.
+2024-03-19 09:53:59,137 - INFO - Book added: 978-1-4088-5565-2
+2024-03-19 09:54:38,569 - INFO - Books have been saved to storage.
+2024-03-19 09:54:38,569 - INFO - Book updated: 978-0-7334-2609-4
+2024-03-19 09:54:48,516 - INFO - Books have been saved to storage.
+2024-03-19 09:54:48,516 - INFO - Book deleted: 978-0-7334-2609-4
+2024-03-19 09:55:17,485 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:55:17,485 - INFO - User added: Kavyasri, ID: 1126
+2024-03-19 09:55:31,833 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:55:31,833 - INFO - User added: Rama , ID: 1108
+2024-03-19 09:55:48,162 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:55:48,162 - INFO - User updated: ID: 1108
+2024-03-19 09:55:57,551 - INFO - Users have been successfully saved to storage.
+2024-03-19 09:55:57,551 - INFO - User deleted: ID: 1108
+2024-03-19 09:56:23,644 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:56:23,644 - INFO - Book checked out: ISBN 978-0-7334-2609-4 by User ID 1126
+2024-03-19 09:56:45,296 - INFO - Checkouts have been successfully saved .
+2024-03-19 09:56:45,296 - INFO - Book checked in: ISBN 978-0-7334-2609-4
+2024-03-19 09:57:03,945 - WARNING - Attempt to check in a book not checked out: ISBN 978-0-7334-2609-4
